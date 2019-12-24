@@ -1,1342 +1,1280 @@
-<html lang="en" data-blockbyte-bs-uid="68823" class="gr__elearning_it-tallaght_ie"><head>
-  <title>Ermesa Pepe Portfolio</title>
-  
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <style>
- 
-	#aboutme, #education, #interests, #projects2, #projects1, #work, header{
-		margin-left: 	1em; 
-		padding-top:	0.5em;
-	}
-	  
-	
-	  
-	header p{
-		color:			black;
-		padding:		0em 0em 0em 0em;
-	}
-  
-	
-	
-	#container
-	{
-	background-color:#ffcece;
-	height:40%;
-	width:82%;
-    justify-content: center;
-    margin: 0 auto;
-	}
-	
-	body
-	{	
-	background-color:rgba(142, 214, 255,1);
-	}
-	
-	button.btn-xl
-	{
-	border-radius:40%;
-	width:60px;
-	height: 60px;
-	margin:0px;
-	margin-top:150px;
-	margin-right:0px;
-	border: solid 2px white;
-	}
-	button.line
-	{
-	border-radius:50%;
-	width:120px;
-	height: 120px;
-	margin:0px;
-	margin-top:50px;
-	margin-left:10px;
-	border: solid 3px #black;
-	color:black;
-	}
-	
-	.load-3 .line:nth-last-child(1){animation: pulse 1s 2;}
-	.load-3 .line:nth-last-child(2){animation: pulse 2s 2;}
-	.load-3 .line:nth-last-child(3){animation: pulse 3s 2;}
-	.load-3 .line:nth-last-child(4){animation: pulse 4s 2;}
-
-	.load-3 .line2:nth-last-child(1) {animation: loadingC 2s 1.1s linear 1;}
-	.load-3 .line2:nth-last-child(2) {animation: loadingC 2s 2.0s linear 1;}
-
-	
-	
-	@keyframes loadingC {
-
-	   0 {transform: translate(0px,0px);}
-	   50% {transform: translate(20px,20px);}
-	   100% {transform: translate(0px,0px);}	
-	}
-
-	.load-3 .element:nth-last-child(1) {animation: pulse 0s 1;}
-	.load-3 .element:nth-last-child(2) {animation: pulse 4s 1;}
-	.load-3 .element:nth-last-child(3) {animation: pulse 5s 1;}
-	.load-3 .element:nth-last-child(4) {animation: pulse 6s 1;}
-	.load-3 .element:nth-last-child(5) {animation: pulse 7s 1;}
-	.load-3 .element:nth-last-child(6) {animation: pulse 8s 1;}
-
-	@keyframes pulse {
-	  0% {
-		background-color: #ffffff;
-	  }
-	  100% {
-		
-	  }
-	}
-	
-
-	button.line
-	{
-	font-family:Lucida Console;
-	font-size:16px !important;
-	color:black !important;
-	
-	}
-	
-	.nav-link
-	{
-	font-family:Lucida Console;
-	font-size:24px !important;
-	color:black !important;
-	float:middle;
-	margin-left:0px;
-	background-color:#ffc1c8;
-	border-right: solid 1px black;
-	padding:5px;
-	}
-
-	.navbar-header
-	{
-	font-family:Lucida Console;
-	font-size:48px !important;
-	color:2F2D2E !important;
-	background-color:#ffc1c8;
-	width:100%;
-	height:70px;
-	text-align:center;
-	margin: auto;
-	}
-	
-	.navbar-header  a
-	{
-	font-family:Lucida Console;
-	font-size:28px !important;
-	color:2F2D2E !important;
-	background-color:#ffc1c8;
-	width:20%;
-	height:70px;
-	text-align:center;
-	margin: auto;
-	}
-	
-	img 
-	{
-	  width: 450px;
-	  height: 350px;	
-	  float:right;
-	  margin-top:0px;
-	  margin-right:0px;
-	  border-radius:0%;
-	 border:solid 40px white;
-
-	}
-	.navbar
-	{
-	background-color:#ffc1c8 !important;
-	}
-	.navbar-fixed-top  {
-	top:-70px;
-	opacity:0;
-}
-
-.card {
-  box-shadow: 0px 8px 4px 0 rgba(0, 0, 0, 0.2);
-  width: 80%;
-  margin-left: 0px;
-  text-align: center;
-  font-family: arial;
-  border-left:solid white 0px; 
-  margin-bottom: 20px;
-   background-color:#f9f9f3;
-}
-img
-{
-/*box-shadow: 0px 8px 4px 0 rgba(0, 0, 0, 0.2);*/
-display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-.title {
-  color: grey;
-  font-size: 40vm;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 11px;
-  color: black;
-  background-color: #ffc1c8;
-  text-align: center;
-  cursor: pointer;
-  width: 50%;
-  font-size: 26px;
-  
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
- @media screen and (max-width: 600px) {
-  #container {
-    width: 100%;
-  }
-}
-
-.icon a 
-{
-margin:11px;
-}
-
-load-4 button
-{
-background-color:#8ed6ff;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-.col-sm-1{
-border:solid 1px black !important;
-}
-.col-sm-3
-border:solid 1px black !important;
-}
-.col-sm-8
-{
-border: solid 1px black !important;
-}
-
-
-p {
-  font-size: calc(14px + (26 - 16) * ((50vw - 300px) / (1600 - 100)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((50vw - 300px)/(1600 - 100)));
-}
-li{
-  font-size: calc(14px + (26 - 16) * ((50vw - 300px) / (1600 - 100)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((50vw - 300px)/(1600 - 100)));
-}
-@media screen and (max-width: 600px) {                
-   div.load-3 {
-      display: none;
-   }
-}
- body>div#blockbyte-bs-indicator>div{opacity:0;pointer-events:none}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible,body>iframe#blockbyte-bs-overlay.blockbyte-bs-visible{opacity:1;pointer-events:auto}body.blockbyte-bs-noscroll{overflow:hidden !important}body>div#blockbyte-bs-indicator>div{position:absolute;transform:translate3d(-40px, 0, 0);top:0;left:0;width:40px !important;height:100%;background:rgba(0,0,0,0.5);border-radius:0 10px 10px 0;transition:opacity 0.3s, transform 0.3s;z-index:2}body>div#blockbyte-bs-indicator>div>span{-webkit-mask:no-repeat center/32px;-webkit-mask-image:url(chrome-extension://jdbnofccmhefkmjbkkdkfiicjkgofkdh/img/icon-bookmark.svg);background-color:#ffffff;position:absolute;display:block;top:0;left:0;width:100%;height:100%}body>div#blockbyte-bs-indicator[data-pos='right']{left:auto;right:0}body>div#blockbyte-bs-indicator[data-pos='right']>div{transform:translate3d(40px, 0, 0);left:auto;right:0;border-radius:10px 0 0 10px}body>div#blockbyte-bs-indicator.blockbyte-bs-fullHeight>div{border-radius:0}body>div#blockbyte-bs-indicator.blockbyte-bs-hover>div{transform:translate3d(0, 0, 0);opacity:1}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb{height:100% !important;top:0 !important}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div{background:transparent}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div>span{-webkit-mask-position-y:20px}body>iframe#blockbyte-bs-sidebar{width:320px;max-width:none;height:0;z-index:2147483646;background-color:transparent !important;border:none;display:block !important;transform:translate3d(-320px, 0, 0);will-change:width, height, opacity, transform;transition:width 0s 0.3s, height 0s 0.3s, opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar[data-pos='right']{left:auto;right:0;transform:translate3d(320px, 0, 0)}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible{width:calc(100% + 320px);height:100%;transform:translate3d(0, 0, 0);transition:opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask{background:none !important}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask:not(.blockbyte-bs-hover){width:calc(320px + 50px)}body>iframe#blockbyte-bs-overlay{width:100%;max-width:none;height:100%;z-index:2147483647;border:none;background:rgba(0,0,0,0.5) !important;transition:opacity 0.3s}
-
- .aside {
-  /* Abs positioning makes it not take up vert space */
-  font-size:20px;
-
-  /* Border is the new background */
-  background: none;
-  /* Rotate from top left corner (not default) */
-  transform-origin: 0 0;
-  transform: rotate(270deg);
-}
-#pot {
-  bottom: 15%;
-  position: absolute;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 5s;
-}
-@-webkit-keyframes run {
-  0% {
-    left: 0;
-  }
-  50% {
-    right: 0;
-  }
-  100% {
-    left: 0;
-    , webkit-transform: scaleX(-1);
-  }
-}
-.circle{
-            background: #ffe3b0;
-            border-radius: 50%;
-            color: black;
-            height: 170px;
-            font-family:courier;
-            width: 170px;
-			float:left;
-			font-size:14px;
-			margin:0 auto;
-        }
-		.circle2{
-            background: #ffc1c8;
-            border-radius: 50%;
-            color: black;
-            height: 240px;
-            font-family:courier;
-			font-size:14px;
-            width: 240px;
-			float:right;
-			margin:0 auto;
-        }
-		
-.cover-ribbon {
-  overflow: hidden;
-}
-.cover-ribbon .cover-ribbon-inside {
-  background: rgba(142, 214, 255,1);
-  color: #000;
-  transform: rotate(45deg);
-  position: absolute;
-  right: -35px;
-  top: 15px;
-  padding: 10px;
-  min-width: 147px;
-  text-align: center;
-  font-size:16px;
-  font-family:Lucida Console;
-}
-
-.cover-ribbon .cover-ribbon-inside:before {
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 10px solid rgba(142, 214, 255,1);
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  top: 35px;
-  transform: rotate(-45deg);
-}
-.cover-ribbon .cover-ribbon-inside:after {
-  width: 0;
-  height: 0;
-  border-top: 7px solid transparent;
-  border-left: 10px solid rgba(142, 214, 255,1);
-  border-bottom: 7px solid transparent;
-  position: absolute;
-  left: 95%;
-  right: 0;
-  top: 34px;
-  bottom: 0;
-  content: "";
-  transform: rotate(-45deg);
-}
-
-.card1:hover .flipper, .card.hover .flipper {
-	transform: rotateY(180deg);
-}
-.card1 .flipper {
-	transition: 0.9s;
-	transform-style: preserve-3d;
-	
-}
-
- .back {
-	
-	backface-visibility: hidden;
-    background-color: #f9f9f3;
-	
-}
-
-.front 
-{
-	
-	transform: rotateY(0deg);
-	background-color: #f9f9f3;
-	
-
-}
-
-.back 
-{
-	transform: rotateY(180deg);
-	color: black;
-    border: 0px solid black;
-	border-radius:20px;
-	
-	/*box-shadow: -8px 8px 16px 0px rgba(0, 0, 0, 0.8);*/
-	
-	text-align:center;
-	background-color:#f9f9f3;
-	position:relative;
-	top:-100px;
-	
-}
-	
-	.nav-link:hover
-{
-background-color:white;
-}	
-		
-	
-.col-sm-4 { 
-  border-right: 1px solid #9f9f9f !important;
-}	
- .col-sm-3 { 
-  border-right: 1px solid #9f9f9f !important;
-}	
-.col-sm-6 { 
-  border-right: 1px solid #9f9f9f !important;
-}	
-	 
-.circle-wrap {
-  margin: 50px auto;
-  width: 150px;
-  height: 150px;
-  background: #e6e2e7;
-  border-radius: 50%;
-}
-.circle-wrap .circleskills .mask,
-.circle-wrap .circleskills .fill {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  border-radius: 50%;
-}
-.circle-wrap .circleskills .mask {
-  clip: rect(0px, 150px, 150px, 75px);
-}
-.circle-wrap .circleskills .mask .fill {
-  clip: rect(0px, 75px, 150px, 0px);
-  background-color: #9e00b1;
-}
-.circle-wrap .circleskills .mask.full,
-.circle-wrap .circleskills .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(126deg);
-}
- 
-@keyframes fill {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(146deg);
-  }
-}
-
-.circle-wrap .inside-circle {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background: #fff;
-  line-height: 130px;
-  text-align: center;
-  margin-top: 10px;
-  margin-left: 10px;
-  position: absolute;
-  z-index: 100;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-.skillbar {
-  font-family: 'Open Sans', 'sans-serif';
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-	font-weight:bold;
-	font-size:13px;
-	color:#333;
-	background:#6adcfa;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#000;
-	color:rgba(0, 0, 0, 0.4);
-}
-
-
-	 </style>
-
-	  
-	  <script>
-	
-	
-
-	function aboutme()
-	{
-		 location.href = "#aboutme";
-	} 
-	function work()
-	{
-		 location.href = "#work";
-	} 
-	function education()
-	{
-		 location.href = "#education";
-	} 
-	function interests()
-	{
-		 location.href = "#interests";
-	} 
-	
-	$( window ).on( "load", function() {
-    mainNav();
-	
-    $(window).scroll(function() {
-        mainNav();
-    });
-    function mainNav() {
-        var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-        if (top > 70) $('.navbar-fixed-top').stop().animate({
-            "opacity": '1',
-            "top": '0'
-        });
-        else $('.navbar-fixed-top').stop().animate({
-            "top": '-70',
-            "opacity": '0'
-        });
-
-	}
-     });
-
-  jQuery('.skillbar').each(function(){
-	jQuery(this).find('.skillbar-bar').animate({
-		width:jQuery(this).attr('data-percent')
-	},2000);
-});
-
-
-
-	</script>
-	</head>
-		<body data-gr-c-s-loaded="true">
-			<div class="row">
-				<div class="col-sm-12" style="justify-content:center; margin: auto 0 ;">
-					<div class="navbar-header">
-					<hr>
-						<h1 >Ermesa Pepe</h1>
-						
-						<button type="submit" onclick="window.open('Ermesa PepeCV.doc')" style="width:10%; float:right;position:relative; top:-50px;height:30;"><i class="fa fa-download" aria-hidden="true" ></i><h4>Download my CV</h4></button>
-					<button type="submit" onclick="window.open('#projects1')" style="width:10%; float:left;position:relative; top:-50px;height:30;"><i class="fa fa-bookmark" aria-hidden="true"></i><h4>Work Projects</h4></button>
-					<button type="submit" onclick="window.open('#projects2')" style="width:10%; float:left;position:relative; top:-50px;height:30;"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i><h4>College Projects</h4></button>
-					
-					</div>  
-					<nav class="navbar fixed-top navbar-expand-sm navbar-fixed-top">
-						<ul class="navbar-nav navbar-left">
-						<li class="nav-item">
-					<a class="nav-link  btn-info" href="#projects1">Work Projects</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link  btn-info" href="#projects2">College Projects</a>
-					</li>
-					</ul>
-					</nav>
-					<nav class="navbar fixed-top navbar-expand-sm navbar-fixed-top">
-					<ul class="navbar-nav navbar-right">
-					<li class="nav-item">
-					<a class="nav-link  btn-info" href="#">Top Page</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link  btn-info" href="#aboutme">About Me</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link"  btn-info" href="#work">Work</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link  btn-info" href="#education">Education</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link   btn-info" href="#interests">Interests</a>
-					</li>
-					</ul>
-					</nav>
-				</div>
-			</div>
-			<br><br>
-			
-<div class="row" style="background: linear-gradient(180deg, rgba(142, 214, 255,1) 50%, rgba(255,255,255,1) 50%) ;" >
-
-			<h1 style="text-align:center"></h1>
-			<div id="container" class="container-fluid">
-				<div class="card col-sm-6" style="height:700px">
-					<br><br><br>
-					<br><br><br>
-					<h1 class="display-4">Hello,</h1>
-					<h1>A bit About Me</h1>
-					
-					<p class="title" style="text-align:center; margin-top:92px;">I'm an Enterprise Technical Analyst</p>
-		<p class="title">at Dell EMC</p>
-		
-		<div class="load-3 visible-lg-block" style="text-align:center;margin-bottom:40px;"">
-		<br><br><br>
-			 <hr> 
-			 <p class="title">If you want to learn more...</p>
-			 <hr>
-				<button type="button" onClick="aboutme();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffc1c8">Abut Me</button>
-				<button type="button" onClick="work();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#8ed6ff">Work</button> 
-				<button type="button" onClick="education();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffcece">Education</button>
-				<button type="button" onClick="interests();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffe3b0">Interests</button>
-				
-		</div>		
-	</div> 
- <div class="card col-sm-6" style="height:700px">
- <img src="profile.jpg" alt="pic" class=" visible-lg-block" style="width:48%; height:40%; margin-left: auto; margin-right: auto; margin-top:80px; ">
- <div class="icon visible-lg-block" style="margin: 50px">
-    <a href="https://www.facebook.com/profile.php?id=1487014844&ref=bookmarks" ><i class="fa fa-facebook fa-2x"></i></a> 
-    <a href="https://twitter.com/ermesa1" ><i class="fa fa-twitter fa-2x"></i></a>  
-    <a href="https://www.linkedin.com/in/ermesa-pepe-477504118/" ><i class="fa fa-linkedin fa-2x"></i></a>  
-    <a href="https://www.instagram.com/buyinbulk_ireland/?hl=it" ><i class="fa fa-instagram fa-2x"></i></a> 
-  </div>
- <div class=" card1 front" >
- <div class="flipper">
-    <button>Contact Me</button>
- <div  class="back">
-<i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
-<h1 class="h1">Mon-Fri 9.00-17.00</h1>
-<a class="a" href="sip:ermesa_pepe@Dell.com"><i class="fa fa-skype fa-2x"></i></a>
-<a class="a" href="Callto:tel:+3445134"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
-<a class="a" onClick="javascript:window.open('mailto:ermesa_pepe@dell.com;', 'mail');event.preventDefault()" href="ermesa_pepe@dell.com;">
-<i class="fa fa-envelope fa-2x"></i></a>
-</div>
-</div>
-	</div>
-	</div>
-</div>
-</div>		
-		<!-- empty row -->
-		<div id="aboutme">
-		<div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
-		</div>
-		<div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
-			<h1 style="font-family:Comic Sans MS; font-size:44 "><i>Life</i></h1>
-		</div>
-		<!-- section About Me -->
-			
-		
-					
-			
-			<div  class="row" style="background:rgba(255,255,255,1)" >
-		
-			<div class="col-sm-4 cover-ribbon">
-				<div  style="margin:30px; text-align:center;vertical-align:middle">
-					<div class="cover-ribbon-inside">About me</div>
-					<h1>About me</h1>
-					<br><br><br><br>
-					<p>I'm from Italy where I worked for many years as Backand Software Developer before come to Ireland 3 years ago.
-					</p>
-					<p><br><br>I was born in Benevento a small city close to Naples in 1980. <br>I completed my Study in Padua near Venice. I moved
-					to Ireland in 2016 for new work opportinities</p>
-				</div>
-				
+<html lang="en" data-blockbyte-bs-uid="68823" class="gr__elearning_it-tallaght_ie">
+   <head>
+      <title>Ermesa Pepe Portfolio</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <style>
+         #aboutme, #education, #interests, #projects2, #projects1, #work, header{
+         margin-left: 	1em; 
+         padding-top:	0.5em;
+         }
+         header p{
+         color:			black;
+         padding:		0em 0em 0em 0em;
+         }
+         #container
+         {
+         background-color:#ffcece;
+         height:40%;
+         width:82%;
+         justify-content: center;
+         margin: 0 auto;
+         }
+         body
+         {	
+         background-color:rgba(142, 214, 255,1);
+         }
+         button.btn-xl
+         {
+         border-radius:40%;
+         width:60px;
+         height: 60px;
+         margin:0px;
+         margin-top:150px;
+         margin-right:0px;
+         border: solid 2px white;
+         }
+         button.line
+         {
+         border-radius:50%;
+         width:120px;
+         height: 120px;
+         margin:0px;
+         margin-top:50px;
+         margin-left:10px;
+         border: solid 3px #black;
+         color:black;
+         }
+         .load-3 .line:nth-last-child(1){animation: pulse 1s 2;}
+         .load-3 .line:nth-last-child(2){animation: pulse 2s 2;}
+         .load-3 .line:nth-last-child(3){animation: pulse 3s 2;}
+         .load-3 .line:nth-last-child(4){animation: pulse 4s 2;}
+         .load-3 .line2:nth-last-child(1) {animation: loadingC 2s 1.1s linear 1;}
+         .load-3 .line2:nth-last-child(2) {animation: loadingC 2s 2.0s linear 1;}
+         @keyframes loadingC {
+         0 {transform: translate(0px,0px);}
+         50% {transform: translate(20px,20px);}
+         100% {transform: translate(0px,0px);}	
+         }
+         .load-3 .element:nth-last-child(1) {animation: pulse 0s 1;}
+         .load-3 .element:nth-last-child(2) {animation: pulse 4s 1;}
+         .load-3 .element:nth-last-child(3) {animation: pulse 5s 1;}
+         .load-3 .element:nth-last-child(4) {animation: pulse 6s 1;}
+         .load-3 .element:nth-last-child(5) {animation: pulse 7s 1;}
+         .load-3 .element:nth-last-child(6) {animation: pulse 8s 1;}
+         @keyframes pulse {
+         0% {
+         background-color: #ffffff;
+         }
+         100% {
+         }
+         }
+         button.line
+         {
+         font-family:Lucida Console;
+         font-size:16px !important;
+         color:black !important;
+         }
+         .nav-link
+         {
+         font-family:Lucida Console;
+         font-size:24px !important;
+         color:black !important;
+         float:middle;
+         margin-left:0px;
+         background-color:#ffc1c8;
+         border-right: solid 1px black;
+         padding:5px;
+         }
+         .navbar-header
+         {
+         font-family:Lucida Console;
+         font-size:48px !important;
+         color:2F2D2E !important;
+         background-color:#ffc1c8;
+         width:100%;
+         height:70px;
+         text-align:center;
+         margin: auto;
+         }
+         .navbar-header  a
+         {
+         font-family:Lucida Console;
+         font-size:28px !important;
+         color:2F2D2E !important;
+         background-color:#ffc1c8;
+         width:20%;
+         height:70px;
+         text-align:center;
+         margin: auto;
+         }
+         img 
+         {
+         width: 450px;
+         height: 350px;	
+         float:right;
+         margin-top:0px;
+         margin-right:0px;
+         border-radius:0%;
+         border:solid 40px white;
+         }
+         .navbar
+         {
+         background-color:#ffc1c8 !important;
+         }
+         .navbar-fixed-top  {
+         top:-70px;
+         opacity:0;
+         }
+         .card {
+         box-shadow: 0px 8px 4px 0 rgba(0, 0, 0, 0.2);
+         width: 80%;
+         margin-left: 0px;
+         text-align: center;
+         font-family: arial;
+         border-left:solid white 0px; 
+         margin-bottom: 20px;
+         background-color:#f9f9f3;
+         }
+         img
+         {
+         /*box-shadow: 0px 8px 4px 0 rgba(0, 0, 0, 0.2);*/
+         display: block;
+         margin-left: auto;
+         margin-right: auto 
+         }
+         .title {
+         color: grey;
+         font-size: 40vm;
+         }
+         button {
+         border: none;
+         outline: 0;
+         display: inline-block;
+         padding: 11px;
+         color: black;
+         background-color: #ffc1c8;
+         text-align: center;
+         cursor: pointer;
+         width: 50%;
+         font-size: 26px;
+         }
+         a {
+         text-decoration: none;
+         font-size: 22px;
+         color: black;
+         }
+         button:hover, a:hover {
+         opacity: 0.7;
+         }
+         @media screen and (max-width: 600px) {
+         #container {
+         width: 100%;
+         }
+         }
+         .icon a 
+         {
+         margin:11px;
+         }
+         load-4 button
+         {
+         background-color:#8ed6ff;
+         }
+         /* For mobile phones: */
+         [class*="col-"] {
+         width: 100%;
+         }
+         .col-sm-1{
+         border:solid 1px black !important;
+         }
+         .col-sm-3
+         border:solid 1px black !important;
+         }
+         .col-sm-8
+         {
+         border: solid 1px black !important;
+         }
+         p {
+         font-size: calc(14px + (26 - 16) * ((50vw - 300px) / (1600 - 100)));
+         line-height: calc(1.3em + (1.5 - 1.2) * ((50vw - 300px)/(1600 - 100)));
+         }
+         li{
+         font-size: calc(14px + (26 - 16) * ((50vw - 300px) / (1600 - 100)));
+         line-height: calc(1.3em + (1.5 - 1.2) * ((50vw - 300px)/(1600 - 100)));
+         }
+         @media screen and (max-width: 600px) {                
+         div.load-3 {
+         display: none;
+         }
+         }
+         body>div#blockbyte-bs-indicator>div{opacity:0;pointer-events:none}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible,body>iframe#blockbyte-bs-overlay.blockbyte-bs-visible{opacity:1;pointer-events:auto}body.blockbyte-bs-noscroll{overflow:hidden !important}body>div#blockbyte-bs-indicator>div{position:absolute;transform:translate3d(-40px, 0, 0);top:0;left:0;width:40px !important;height:100%;background:rgba(0,0,0,0.5);border-radius:0 10px 10px 0;transition:opacity 0.3s, transform 0.3s;z-index:2}body>div#blockbyte-bs-indicator>div>span{-webkit-mask:no-repeat center/32px;-webkit-mask-image:url(chrome-extension://jdbnofccmhefkmjbkkdkfiicjkgofkdh/img/icon-bookmark.svg);background-color:#ffffff;position:absolute;display:block;top:0;left:0;width:100%;height:100%}body>div#blockbyte-bs-indicator[data-pos='right']{left:auto;right:0}body>div#blockbyte-bs-indicator[data-pos='right']>div{transform:translate3d(40px, 0, 0);left:auto;right:0;border-radius:10px 0 0 10px}body>div#blockbyte-bs-indicator.blockbyte-bs-fullHeight>div{border-radius:0}body>div#blockbyte-bs-indicator.blockbyte-bs-hover>div{transform:translate3d(0, 0, 0);opacity:1}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb{height:100% !important;top:0 !important}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div{background:transparent}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div>span{-webkit-mask-position-y:20px}body>iframe#blockbyte-bs-sidebar{width:320px;max-width:none;height:0;z-index:2147483646;background-color:transparent !important;border:none;display:block !important;transform:translate3d(-320px, 0, 0);will-change:width, height, opacity, transform;transition:width 0s 0.3s, height 0s 0.3s, opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar[data-pos='right']{left:auto;right:0;transform:translate3d(320px, 0, 0)}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible{width:calc(100% + 320px);height:100%;transform:translate3d(0, 0, 0);transition:opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask{background:none !important}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask:not(.blockbyte-bs-hover){width:calc(320px + 50px)}body>iframe#blockbyte-bs-overlay{width:100%;max-width:none;height:100%;z-index:2147483647;border:none;background:rgba(0,0,0,0.5) !important;transition:opacity 0.3s}
+         .aside {
+         /* Abs positioning makes it not take up vert space */
+         font-size:20px;
+         /* Border is the new background */
+         background: none;
+         /* Rotate from top left corner (not default) */
+         transform-origin: 0 0;
+         transform: rotate(270deg);
+         }
+         #pot {
+         bottom: 15%;
+         position: absolute;
+         -webkit-animation: linear infinite alternate;
+         -webkit-animation-name: run;
+         -webkit-animation-duration: 5s;
+         }
+         @-webkit-keyframes run {
+         0% {
+         left: 0;
+         }
+         50% {
+         right: 0;
+         }
+         100% {
+         left: 0;
+         , webkit-transform: scaleX(-1);
+         }
+         }
+         .circle{
+         background: #ffe3b0;
+         border-radius: 50%;
+         color: black;
+         height: 170px;
+         font-family:courier;
+         width: 170px;
+         float:left;
+         font-size:14px;
+         margin:0 auto;
+         }
+         .circle2{
+         background: #ffc1c8;
+         border-radius: 50%;
+         color: black;
+         height: 240px;
+         font-family:courier;
+         font-size:14px;
+         width: 240px;
+         float:right;
+         margin:0 auto;
+         }
+         .cover-ribbon {
+         overflow: hidden;
+         }
+         .cover-ribbon .cover-ribbon-inside {
+         background: rgba(142, 214, 255,1);
+         color: #000;
+         transform: rotate(45deg);
+         position: absolute;
+         right: -35px;
+         top: 15px;
+         padding: 10px;
+         min-width: 147px;
+         text-align: center;
+         font-size:16px;
+         font-family:Lucida Console;
+         }
+         .cover-ribbon .cover-ribbon-inside:before {
+         width: 0;
+         height: 0;
+         border-left: 7px solid transparent;
+         border-right: 7px solid transparent;
+         border-bottom: 10px solid rgba(142, 214, 255,1);
+         position: absolute;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         content: "";
+         top: 35px;
+         transform: rotate(-45deg);
+         }
+         .cover-ribbon .cover-ribbon-inside:after {
+         width: 0;
+         height: 0;
+         border-top: 7px solid transparent;
+         border-left: 10px solid rgba(142, 214, 255,1);
+         border-bottom: 7px solid transparent;
+         position: absolute;
+         left: 95%;
+         right: 0;
+         top: 34px;
+         bottom: 0;
+         content: "";
+         transform: rotate(-45deg);
+         }
+         .card1:hover .flipper, .card.hover .flipper {
+         transform: rotateY(180deg);
+         }
+         .card1 .flipper {
+         transition: 0.9s;
+         transform-style: preserve-3d;
+         }
+         .back {
+         backface-visibility: hidden;
+         background-color: #f9f9f3;
+         }
+         .front 
+         {
+         transform: rotateY(0deg);
+         background-color: #f9f9f3;
+         }
+         .back 
+         {
+         transform: rotateY(180deg);
+         color: black;
+         border: 0px solid black;
+         border-radius:20px;
+         /*box-shadow: -8px 8px 16px 0px rgba(0, 0, 0, 0.8);*/
+         text-align:center;
+         background-color:#f9f9f3;
+         position:relative;
+         top:-100px;
+         }
+         .nav-link:hover
+         {
+         background-color:white;
+         }	
+         .col-sm-4 { 
+         border-right: 1px solid #9f9f9f !important;
+         }	
+         .col-sm-3 { 
+         border-right: 1px solid #9f9f9f !important;
+         }	
+         .col-sm-6 { 
+         border-right: 1px solid #9f9f9f !important;
+         }	
+         .circle-wrap {
+         margin: 50px auto;
+         width: 150px;
+         height: 150px;
+         background: #e6e2e7;
+         border-radius: 50%;
+         }
+         .circle-wrap .circleskills .mask,
+         .circle-wrap .circleskills .fill {
+         width: 150px;
+         height: 150px;
+         position: absolute;
+         border-radius: 50%;
+         }
+         .circle-wrap .circleskills .mask {
+         clip: rect(0px, 150px, 150px, 75px);
+         }
+         .circle-wrap .circleskills .mask .fill {
+         clip: rect(0px, 75px, 150px, 0px);
+         background-color: #9e00b1;
+         }
+         .circle-wrap .circleskills .mask.full,
+         .circle-wrap .circleskills .fill {
+         animation: fill ease-in-out 3s;
+         transform: rotate(126deg);
+         }
+         @keyframes fill {
+         0% {
+         transform: rotate(0deg);
+         }
+         100% {
+         transform: rotate(146deg);
+         }
+         }
+         .circle-wrap .inside-circle {
+         width: 130px;
+         height: 130px;
+         border-radius: 50%;
+         background: #fff;
+         line-height: 130px;
+         text-align: center;
+         margin-top: 10px;
+         margin-left: 10px;
+         position: absolute;
+         z-index: 100;
+         font-weight: 700;
+         font-size: 2em;
+         }
+         @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+         .skillbar {
+         font-family: 'Open Sans', 'sans-serif';
+         position:relative;
+         display:block;
+         margin-bottom:15px;
+         width:100%;
+         background:#eee;
+         height:35px;
+         border-radius:3px;
+         -webkit-border-radius:3px;
+         -webkit-transition:0.4s linear;
+         -moz-transition:0.4s linear;
+         -ms-transition:0.4s linear;
+         -o-transition:0.4s linear;
+         transition:0.4s linear;
+         -webkit-transition-property:width, background-color;
+         -moz-transition-property:width, background-color;
+         -ms-transition-property:width, background-color;
+         -o-transition-property:width, background-color;
+         transition-property:width, background-color;
+         }
+         .skillbar-title {
+         position:absolute;
+         top:0;
+         left:0;
+         font-weight:bold;
+         font-size:13px;
+         color:#333;
+         background:#6adcfa;
+         -webkit-border-top-left-radius:3px;
+         -webkit-border-bottom-left-radius:4px;
+         -moz-border-radius-topleft:3px;
+         -moz-border-radius-bottomleft:3px;
+         border-top-left-radius:3px;
+         border-bottom-left-radius:3px;
+         }
+         .skillbar-title span {
+         display:block;
+         background:rgba(0, 0, 0, 0.1);
+         padding:0 20px;
+         height:35px;
+         line-height:35px;
+         -webkit-border-top-left-radius:3px;
+         -webkit-border-bottom-left-radius:3px;
+         -moz-border-radius-topleft:3px;
+         -moz-border-radius-bottomleft:3px;
+         border-top-left-radius:3px;
+         border-bottom-left-radius:3px;
+         }
+         .skillbar-bar {
+         height:35px;
+         width:0px;
+         background:#6adcfa;
+         border-radius:3px;
+         -moz-border-radius:3px;
+         -webkit-border-radius:3px;
+         }
+         .skill-bar-percent {
+         position:absolute;
+         right:10px;
+         top:0;
+         font-size:11px;
+         height:35px;
+         line-height:35px;
+         color:#000;
+         color:rgba(0, 0, 0, 0.4);
+         }
+      </style>
+      <script>
+         function aboutme()
+         {
+         	 location.href = "#aboutme";
+         } 
+         function work()
+         {
+         	 location.href = "#work";
+         } 
+         function education()
+         {
+         	 location.href = "#education";
+         } 
+         function interests()
+         {
+         	 location.href = "#interests";
+         } 
+         
+         $( window ).on( "load", function() {
+            mainNav();
+         
+            $(window).scroll(function() {
+                mainNav();
+            });
+            function mainNav() {
+                var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+                if (top > 70) $('.navbar-fixed-top').stop().animate({
+                    "opacity": '1',
+                    "top": '0'
+                });
+                else $('.navbar-fixed-top').stop().animate({
+                    "top": '-70',
+                    "opacity": '0'
+                });
+         
+         }
+             });
+         
+          jQuery('.skillbar').each(function(){
+         jQuery(this).find('.skillbar-bar').animate({
+         	width:jQuery(this).attr('data-percent')
+         },2000);
+         });
+         
+         $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+         });
+         
+         
+      </script>
+   </head>
+   <body data-gr-c-s-loaded="true" data-spy="scroll" data-target=".navbar" data-offset="100">
+      <div class="row">
+         <div class="col-sm-12" style="justify-content:center; margin: auto 0 ;">
+            <div class="navbar-header">
+               <hr>
+               <h1 >Ermesa Pepe</h1>
+               <button type="submit" onclick="window.open('Ermesa PepeCV.doc')" style="width:10%; float:right;position:relative; top:-50px;height:30;">
+                  <i class="fas fa-download" aria-hidden="true" ></i>
+                  <h4>Download my CV</h4>
+               </button>
+               <button type="submit" onclick="window.open('#projects1')" style="width:10%; float:left;position:relative; top:-50px;height:30;">
+                  <i class="fas fa-bookmark" aria-hidden="true"></i>
+                  <h4>Work Projects</h4>
+               </button>
+               <button type="submit" onclick="window.open('#projects2')" style="width:10%; float:left;position:relative; top:-50px;height:30;">
+                  <i class="fas fa-graduation-cap" aria-hidden="true"></i></i>
+                  <h4>College Projects</h4>
+               </button>
+			   <button type="submit" onclick="window.open('func.html')" style="width:10%; float:left;position:relative; top:-50px;height:30;">
+                 <i class="fas fa-eye"></i>
+                  <h4>Report</h4>
+               </button>
             </div>
-			<div class="col-sm-4 visible-lg-block" style="background-color:white;display:inline-block">
-				<img src="life.png" style="width:100%;margin-left: auto 0; margin-right: auto 0;display: block;" >
-				
-			</div>
-			<div class="col-sm-4 cover-ribbon">
-				<div  style="margin:30px; text-align:center;vertical-align:middle">
-				<div class="cover-ribbon-inside"> About me</div>
-					<h1>More About me</h1>
-					<br>
-					
-					<p><br><br><i>I'm a well-organised, highly motivated individual with excellent communication and technical skills.</i></p>
-				</div>
-
+            <nav class="navbar fixed-top navbar-expand-sm navbar-fixed-top">
+               <ul class="navbar-nav navbar-left">
+                  <li class="nav-item">
+                     <a class="nav-link  btn-info" href="#projects1">Work Projects</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link  btn-info" href="#projects2">College Projects</a>
+                  </li>
+               </ul>
+            </nav>
+            <nav class="navbar fixed-top navbar-expand-sm navbar-fixed-top">
+               <ul class="navbar-nav navbar-right">
+                  <li class="nav-item">
+                     <a class="nav-link  btn-info" href="#">Top Page</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link  btn-info" href="#aboutme">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link"  btn-info" href="#work">Work</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link  btn-info" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link   btn-info" href="#interests">Interests</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <br><br>
+      <div class="row" style="background: linear-gradient(180deg, rgba(142, 214, 255,1) 50%, rgba(255,255,255,1) 50%) ;" >
+         <h1 style="text-align:center"></h1>
+         <div id="container" class="container-fluid">
+            <div class="card col-sm-6" style="height:700px">
+               <br><br><br>
+               <br><br><br>
+               <h1 class="display-4">Hello,</h1>
+               <h1>A bit About Me</h1>
+               <p class="title" style="text-align:center; margin-top:92px;">I'm an Enterprise Technical Analyst</p>
+               <p class="title">at Dell EMC</p>
+               <div class="load-3 visible-lg-block" style="text-align:center;margin-bottom:40px;"">
+                  <br><br><br>
+                  <hr>
+                  <p class="title">If you want to learn more...</p>
+                  <hr>
+                  <button type="button" onClick="aboutme();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffc1c8">Abut Me</button>
+                  <button type="button" onClick="work();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#8ed6ff">Work</button> 
+                  <button type="button" onClick="education();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffcece">Education</button>
+                  <button type="button" onClick="interests();" class="btn btn-secondary btn-circle btn-xl line" style="background-color:#ffe3b0">Interests</button>
+               </div>
             </div>
-			
-		</div>
-		</div>
-		
-		
-		
-		<!-- section Work experience -->
-			
-	<!--	<div class="col-sm-1" style="background-color:#ffcece" >
-			<div class="panel panel-default" style="position:relative; top:0px;border:0px;background-color:#ffe3b0;margin:10px">
-                <div class="panel-body" >
-					<div class="load-4" > 
-						<div id="aboutMe" style="vertical-align:middle">
-							<p class="aside">Work</p>
-							<a class="btn btn-primary" data-toggle="collapse" href="#collapsecity" role="button" aria-expanded="false" aria-controls="collapsecity">More</a>
-						</div>
-			        </div>
-				</div>
+            <div class="card col-sm-6" style="height:700px">
+               <img src="profile.jpg" alt="pic" class=" visible-lg-block" style="width:48%; height:40%; margin-left: auto; margin-right: auto; margin-top:80px; ">
+               <div class="icon visible-lg-block" style="margin: 50px">
+                  <a href="https://www.facebook.com/profile.php?id=1487014844&ref=bookmarks" ><i class="fa fa-facebook fa-2x"></i></a> 
+                  <a href="https://twitter.com/ermesa1" ><i class="fa fa-twitter fa-2x"></i></a>  
+                  <a href="https://www.linkedin.com/in/ermesa-pepe-477504118/" ><i class="fa fa-linkedin fa-2x"></i></a>  
+                  <a href="https://www.instagram.com/buyinbulk_ireland/?hl=it" ><i class="fa fa-instagram fa-2x"></i></a> 
+               </div>
+               <div class=" card1 front" >
+                  <div class="flipper">
+                     <button>Contact Me</button>
+                     <div  class="back">
+                        <i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
+                        <h1 class="h1">Mon-Fri 9.00-17.00</h1>
+                        <a class="a" href="sip:ermesa_pepe@Dell.com"><i class="fa fa-skype fa-2x"></i></a>
+                        <a class="a" href="Callto:tel:+3445134"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                        <a class="a" onClick="javascript:window.open('mailto:ermesa_pepe@dell.com;', 'mail');event.preventDefault()" href="ermesa_pepe@dell.com;">
+                        <i class="fa fa-envelope fa-2x"></i></a>
+                     </div>
+                  </div>
+               </div>
             </div>
-		</div> -->
-				<!-- empty row -->
-				<br>
-	
-	<div id="work">
-		<div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
-		</div>
-		<div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
-			<h1 style="font-family:Comic Sans MS; font-size:44"><i>Work Experience</i></h1>
-					
-		</div>	
-			<h1><a class="btn btn-circle btn-xl line" style="background-color:#ffc1c8; font-size:20px; margin:20px;" data-toggle="collapse" href="#morework" role="button" aria-expanded="false" aria-controls="morework">+ More Info</a></h1>
-		
-		<div class="row" style="background: linear-gradient(180deg, rgba(142, 214, 255,1) 100%, rgba(255,255,255,1) 60%)" >
-			<div class="col-sm-3" >
-				<div class="load-3" style="margin:30px; text-align:center">
-					<h4><i>Oct ’18 – Current</i></h4>
-					<h3>DEll, Dublin</h3>
-					<br>
-					<p id="animation" class="circle"><br><br><b>Responsabilities</b>
-					<br><br>Support customers through their technical issues</p>
-					<p class="circle2"><br><br><b>Achievements</b>
-					<br><br>Realisation of different projects:
-					<br>SharePoint Website.
-					<br>Voice of the floor Website.
-					<br>Women in Action Website.</p>					
-				</div>
-				
+         </div>
+      </div>
+      
+      <div id="aboutme">
+         <div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
+         </div>
+         <div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
+            <h1 style="font-family:Comic Sans MS; font-size:44 "><i>Life</i></h1>
+         </div>
+         <!-- section About Me -->
+         <div  class="row" style="background:rgba(255,255,255,1)" >
+            <div class="col-sm-4 cover-ribbon">
+               <div  style="margin:30px; text-align:center;vertical-align:middle">
+                  <div class="cover-ribbon-inside">About me</div>
+                  <h1>About me</h1>
+                  <br><br><br><br>
+                  <p>I'm from Italy where I worked for many years as Backand Software Developer before come to Ireland 3 years ago.
+                  </p>
+                  <p><br><br>I was born in Benevento a small city close to Naples in 1980. <br>I completed my Study in Padua near Venice. I moved
+                     to Ireland in 2016 for new work opportinities
+                  </p>
+               </div>
             </div>
-			<div class="col-sm-3">
-				<div  style="margin:30px; text-align:center">
-					<h4><i>Sep ’16 – Jan '18 </i></h4>
-					<h3>HCE SRL, Venice</h3>
-					<br>
-					<p class="circle"><br><br><b>Responsabilities</b>
-					<br><br>Software Developer (80% programming, 20% Customer Support)</p>
-					<p class="circle2"><br><br><b>Achievements</b>
-					<br><br>Realisation of different projects:
-					<br>Websites and e-Commerce.
-					<br>Customer Satisfaction and Loyalty.
-					<br>Post-project delivery.</p>					
-				</div>
+            <div class="col-sm-4 visible-lg-block" style="background-color:white;display:inline-block">
+               <img src="life.png" style="width:100%;margin-left: auto 0; margin-right: auto 0;display: block;" >
             </div>
-			<div class="col-sm-3"">
-				<div id="aboutMe" style="margin:30px; text-align:center">
-					<h4><i>Feb ’07 – May ’16</i></h4>
-					<h3>Cityware SRL, Padua</h3>
-					<br>
-					<p class="circle"><br><br><b>Responsabilities</b>
-					<br><br>Software Developer (80% programming, 20% Customer Support)</p>
-					<p class="circle2"><br><br><b>Achievements</b>
-					<br><br>Realisation of different projects:
-					<br>Smart-city.
-					<br>system of parking meters.
-					<br>Embedded systems.</p>					
-				</div>
+            <div class="col-sm-4 cover-ribbon">
+               <div  style="margin:30px; text-align:center;vertical-align:middle">
+                  <div class="cover-ribbon-inside"> About me</div>
+                  <h1>More About me</h1>
+                  <br>
+                  <p><br><br><i>I'm a well-organised, highly motivated individual with excellent communication and technical skills.</i></p>
+               </div>
             </div>
-			
-			<div class="col-sm-3" style="border:solid 0px black !important;">
-				<div id="aboutMe" style="margin:30px; text-align:center">
-					<h4><i>Jan ’01 – Jun ’07</i></h4>
-					<h3>Euro Work SRL, Padua</h3>
-					<br>
-					<p class="circle"><br><br><b>Responsabilities</b>
-					<br><br>Software Developer, (100% programming)</p>
-					<p class="circle2"><br><br><b>Achievements</b>
-					<br><br>Realisation, implementation and maintenance of:
-					<br>Web applications.
-					<br>IT infrastructure.			
-				</div>
-				
+         </div>
+      </div>
+      <!-- section Work experience -->
+      <!--	<div class="col-sm-1" style="background-color:#ffcece" >
+         <div class="panel panel-default" style="position:relative; top:0px;border:0px;background-color:#ffe3b0;margin:10px">
+                      <div class="panel-body" >
+         		<div class="load-4" > 
+         			<div id="aboutMe" style="vertical-align:middle">
+         				<p class="aside">Work</p>
+         				<a class="btn btn-primary" data-toggle="collapse" href="#collapsecity" role="button" aria-expanded="false" aria-controls="collapsecity">More</a>
+         			</div>
+                 </div>
+         	</div>
+                  </div>
+         </div> -->
+      <!-- empty row -->
+      <br>
+      <div id="work">
+         <div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
+         </div>
+         <div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
+            <h1 style="font-family:Comic Sans MS; font-size:44"><i>Work Experience</i></h1>
+         </div>
+         <h1><a class="btn btn-circle btn-xl line" style="background-color:#ffc1c8; font-size:20px; margin:20px;" data-toggle="collapse" href="#morework" role="button" aria-expanded="false" aria-controls="morework">+ More Info</a></h1>
+         <div class="row" style="background: linear-gradient(180deg, rgba(142, 214, 255,1) 100%, rgba(255,255,255,1) 60%)" >
+            <div class="col-sm-3" >
+               <div class="load-3" style="margin:30px; text-align:center">
+                  <h4><i>Oct ’18 – Current</i></h4>
+                  <h3>DEll, Dublin&nbsp<a href="#" data-toggle="tooltip" title="Dell is a collective of customer-obsessed, industry-leading visionaries. 
+                     Dell believes that technology is essential for driving human progress, providing that technology to people and organisations,
+                     so they can transform the way they work and live!"><i class="fa fa-info-circle" aria-hidden="true"></i></a></h3>
+                  <br>
+                  <p id="animation" class="circle"><br><br><b>Responsabilities</b>
+                     <br><br>Support customers through their technical issues
+                  </p>
+                  <p class="circle2"><br><br><b>Achievements</b>
+                     <br><br>Realisation of different projects:
+                     <br>SharePoint Website.
+                     <br>Voice of the floor Website.
+                     <br>Women in Action Website.
+                  </p>
+               </div>
             </div>
-		</div>
-		
-		<div class="collapse" id="morework">
-		<div class="row">
-			<div class="col-sm-3 collapse" id="morework" >
-				<div  style="margin:30px; text-align:justify;vertical-align:middle">
-					<p><b>Responsabilities</b></p>
-					<p>Support customers through their technical issues through phone, email and other areas across EMEA markets.
-					Systematically gathers relevant information and applies technical knowledge to analyse and use highly specialised troubleshooting tools and content.
-					Use operational and diagnostic procedures to diagnose and resolve issues in unique and complex customer environments (i.e. Microsoft, VMware),
-					analysis of SAN topology, analysis of switch logs and application of network best practices to improve system performance.
-					<p><b>Achievements</b></p>
-					<p> 
-					<li>Realisation, implementation and maintenance of the SharePoint Community Site for the Storage Department.
-					The project allowed me to grasp new ideas and integrate them into innovative results. It was recognised by Managers for creativity and innovation.</li>
-					<li>Coordination of the activities for the VOF: meeting minute, ensure communication updated with other VOF team members and with the rest of the team on the floor.</li>
-					<li>Tech mentor for the Women Kickstart Programme 2019. Recognised by managers for my experience and guidance to support the mentees to succeed.</li>
-					<li>Collaborating in the realisation of the Inside Dell Website for Woman in Action. </li>
-					<li>Contribution to realise the SharePoint for the EqualLogic team to facilitate agents in daily work.</li> </p>
-				</div>
-				
+            <div class="col-sm-3">
+               <div  style="margin:30px; text-align:center">
+                  <h4><i>Sep ’16 – Jan '18 </i></h4>
+                  <h3>HCE SRL, Venice&nbsp<a href="#" data-toggle="tooltip" title="HCE SRL is a web agency designing and developing web applications creating custom solutions,
+                     based on the most trusted open-source frameworks of the market."><i class="fa fa-info-circle" aria-hidden="true"></i></a></h3>
+                  <br>
+                  <p class="circle"><br><br><b>Responsabilities</b>
+                     <br><br>Software Developer (80% programming, 20% Customer Support)
+                  </p>
+                  <p class="circle2"><br><br><b>Achievements</b>
+                     <br><br>Realisation of different projects:
+                     <br>Websites and e-Commerce.
+                     <br>Customer Satisfaction and Loyalty.
+                     <br>Post-project delivery.
+                  </p>
+               </div>
             </div>
-			<div class="col-sm-3 collapse" id="morework" >
-				<div  style="margin:30px; text-align:justify;vertical-align:middle">
-					<p><b>Responsabilities</b></p>
-					<p>Software Developer (80% programming, 20% Customer Support, Troubleshooting.
-					<p><b>Achievements</b></p>
-					<li>UX and UI Design of dynamic and responsive Websites and e-Commerce</li>
-					<li>Development of applications based on data connection (adodb, ado.net), RDBMS SQL Server and MySQL Server.</li>
-					<p><b>Key skills</b></p> 
-					<li>Translating and Implementing Customer requirements along all the life cycle of the project.
-					<li>Database administration, maintenance, migration of Mysql 3.1/5.1 and several versions of SQLServer. Excellent knowledge of storing, manipulating and retrieving data in databases using SQL and Mysql language.</li>
-					<li>Development of Web Forms, Windows Forms using Visual Studio based on .Net Framework or .NET Core for cross-platform needs.</li>
-					<li>Logic organisation of the Information and Contents, Analysis and Study of the navigation flows and realisation of manual. </li></p>
-				</div>
+            <div class="col-sm-3"">
+               <div  style="margin:30px; text-align:center">
+                  <h4><i>Feb ’07 – May ’16</i></h4>
+                  <h3>Cityware SRL, Padua&nbsp<a href="#" data-toggle="tooltip" title="Cityware Srl is leading in parking technology and access control. 
+                     I was a specialist in the development and maintenance of stand-alone applications, desktop and front-end applications."><i class="fa fa-info-circle" aria-hidden="true"></i></a></h3>
+                  <br>
+                  <p class="circle"><br><br><b>Responsabilities</b>
+                     <br><br>Software Developer (90% programming, 10% Customer Support)
+                  </p>
+                  <p class="circle2"><br><br><b>Achievements</b>
+                     <br><br>Realisation of different projects:
+                     <br>Smart-city.
+                     <br>system of parking meters.
+                     <br>Embedded systems.
+                  </p>
+               </div>
             </div>
-			<div class="col-sm-3 collapse" id="morework" >
-				<div  style="margin:30px; text-align:justify;vertical-align:middle">
-					<p><b>Responsabilities</b></p>
-					<p>Software Developer (80% programming, 20% Customer Support).
-					<p><b>Achievements</b></p>
-					<p> Achievements
-					<li>I had the chance to collaborate with projects involving public administration (e.g.  Smart-City).
-					The project was to realise a series of interconnected services for citizens and public administration that facilitate daily life (e.g. payment, integration, ticket-less park booking).</li>
-					<li>I used my ability to work independently and under pressure developing autonomously a system of parking meters,
-					remotely connected and based on single-board computer Raspberry PI2. I built an embedded system, including USB printer, Monitor, POS, cash acceptor and web services</li>
-					<li>I consolidated my experience in Computer Architecture, Operating Systems, and Data Structures.</li>
-					<p><b>Key skills</b></p> 
-					<li>Database administration and maintenance. Excellent knowledge of queries and stored procedures in SQL and Mysql language.</li>
-					<li>Development of software, Web Forms, Windows Forms using Visual Studio and Xamarin for cross-platform applications. </li>
-					<li>Working on Linux/Windows embedded systems in a wide variety of areas
-					 such as device driver development (e.g. Ethernet, USB, RS232/485), TCP/IP networking and wireless networking technologies (including 3G/4G Router, WISP Client Router, AP),
-					 USB protocols (printers, barcode reader), problem solving (including debugging of hardware and software issues).</li>
-					<li>Development of software based on different massaging protocols (MSMQ, RabbitMQ).</li>
-					<li>Development of software for automatic data exchange via FTP (batch script, Vbscript).</li></p>
-
-				</div>
+            <div class="col-sm-3" style="border:solid 0px black !important;">
+               <div id="aboutMe" style="margin:30px; text-align:center">
+                  <h4><i>Jan ’01 – Jun ’07</i></h4>
+                  <h3>Euro Work SRL, Padua&nbsp<a href="#" data-toggle="tooltip" title="Euro Work is a web agency designing and developing web applications creating custom solutions,"><i class="fa fa-info-circle" aria-hidden="true"></i></a></h3>
+                  <br>
+                  <p class="circle"><br><br><b>Responsabilities</b>
+                     <br><br>Software Developer, (100% programming)
+                  </p>
+                  <p class="circle2"><br><br><b>Achievements</b>
+                     <br><br>Realisation, implementation and maintenance of:
+                     <br>Web applications.
+                     <br>IT infrastructure.			
+               </div>
             </div>
-			<div class="col-sm-3" collapse" id="morework" >
-				<div  style="margin:30px; text-align:justify;vertical-align:middle">
-					<p><b>Responsabilities</b></p>
-					<p>Software Developer, (100% programming)
-					<p><b>Achievements</b></p>
-					<p> 
-					<li>Implemented several websites.</li>
-					<li>Implemented IT infrastructure, setting up local and remote servers. Created automated backup of database.</li>
-					<li>Setup and administered Subversion SVN, GIT</li>
-					<p><b>Key skills</b></p> 
-					<li>Web applications built with different programming languages C #, Visual Basic (.NET, Visual Basic 6.0, VBScript).</li>
-					<li>MS SQL, MySQL, and Access.</li></p>
-
-				</div>
-		 </div>
-		 </div>
-		 </div>
-
-		<!-- Skills -->
-		<div id="skills">
-		<div style="background:#ffe3b0;justify-content:center;vertical-align:middle; weight:100%" >
-		<div class="row" style="background:#ffe3b0;justify-content:center;vertical-align:middle; height:100px;" >
-					<h1>Skills<a class="btn btn-circle btn-xl line" style="background-color:#ffc1c8; font-size:20px; margin:20px;" data-toggle="collapse" href="#moreskills" role="button" aria-expanded="false" aria-controls="moreskills">+ Skills Details</a></h1>
-					
-					</div>
-					</div>
-<div class="row" style="background:#ffe3b0;display: flex; justify-content: center; align-items: center;">					
-					
-					<div class="col-sm-2">
-						<div class="skillbar clearfix" data-percent="65%">
-	<div class="skillbar-title" style="background: #88cd2a;"><span>C#</span></div>
-	<div class="skillbar-bar" style="background: #88cd2a;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="85%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>VB.Net</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="60%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>Visual basic</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="85%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>MVC</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">45%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="60%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>ASP</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div>
-</div>
-
-
-						</div>
-						<div class="row" style="background:#ffe3b0;display: flex; justify-content: center; align-items: center;">					
-					
-					<div class="col-sm-2">
-						<div class="skillbar clearfix" data-percent="65%">
-	<div class="skillbar-title" style="background: #88cd2a;"><span>HTML5</span></div>
-	<div class="skillbar-bar" style="background: #88cd2a;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="85%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>CSS3</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="60%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>Javascript</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">60%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="85%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>JQuery</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">60%</div>
-</div>
-</div>
-<div class="col-sm-2">
-<div class="skillbar clearfix" data-percent="60%">
-	<div class="skillbar-title" style="background: #00a8ff;"><span>XML</span></div>
-	<div class="skillbar-bar" style="background: #00a8ff;"></div>
-	<div class="skill-bar-percent">60%</div>
-</div>
-</div>
-</div>
-</div>			
-<div class="collapse" id="moreskills">
-		<div class="row"style="background:#ffe3b0" >
-			<div class="col-sm-4 collapse" id="moreskills" >
-				<div  style="margin:30px; text-align:center;vertical-align:middle">
-					<p><h1><i><b>Personal Skills</b></i></h1></p>
-					<p><br><li>A genuine desire to achieve, excel and evolve.</li>
-						<li>Excellent written and verbal communication skills.</li>
-						<li>Fast learner, ability to work independently. </li>
-						<li>Strong problem-solving.</li>
-						<li>Excellent analytical skills.</li></p>
-				</div>				
+         </div>
+         <div class="collapse" id="morework">
+            <div class="row">
+               <div class="col-sm-3 collapse" id="morework" >
+                  <div  style="margin:30px; text-align:justify;vertical-align:middle">
+                     <p><b>Responsabilities</b></p>
+                     <p>Support customers through their technical issues through phone, email and other areas across EMEA markets.
+                        Systematically gathers relevant information and applies technical knowledge to analyse and use highly specialised troubleshooting tools and content.
+                        Use operational and diagnostic procedures to diagnose and resolve issues in unique and complex customer environments (i.e. Microsoft, VMware),
+                        analysis of SAN topology, analysis of switch logs and application of network best practices to improve system performance.
+                     <p><b>Achievements</b></p>
+                     <p> 
+                     <li>Realisation, implementation and maintenance of the SharePoint Community Site for the Storage Department.
+                        The project allowed me to grasp new ideas and integrate them into innovative results. It was recognised by Managers for creativity and innovation.
+                     </li>
+                     <li>Coordination of the activities for the VOF: meeting minute, ensure communication updated with other VOF team members and with the rest of the team on the floor.</li>
+                     <li>Tech mentor for the Women Kickstart Programme 2019. Recognised by managers for my experience and guidance to support the mentees to succeed.</li>
+                     <li>Collaborating in the realisation of the Inside Dell Website for Woman in Action. </li>
+                     <li>Contribution to realise the SharePoint for the EqualLogic team to facilitate agents in daily work.</li>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-sm-3 collapse" id="morework" >
+                  <div  style="margin:30px; text-align:justify;vertical-align:middle">
+                     <p><b>Responsabilities</b></p>
+                     <p>Software Developer (80% programming, 20% Customer Support, Troubleshooting.
+                     <p><b>Achievements</b></p>
+                     <li>UX and UI Design of dynamic and responsive Websites and e-Commerce</li>
+                     <li>Development of applications based on data connection (adodb, ado.net), RDBMS SQL Server and MySQL Server.</li>
+                     <p><b>Key skills</b></p>
+                     <li>Translating and Implementing Customer requirements along all the life cycle of the project.
+                     <li>Database administration, maintenance, migration of Mysql 3.1/5.1 and several versions of SQLServer. Excellent knowledge of storing, manipulating and retrieving data in databases using SQL and Mysql language.</li>
+                     <li>Development of Web Forms, Windows Forms using Visual Studio based on .Net Framework or .NET Core for cross-platform needs.</li>
+                     <li>Logic organisation of the Information and Contents, Analysis and Study of the navigation flows and realisation of manual. </li>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-sm-3 collapse" id="morework" >
+                  <div  style="margin:30px; text-align:justify;vertical-align:middle">
+                     <p><b>Responsabilities</b></p>
+                     <p>Software Developer (90% programming, 10% Customer Support).
+                     <p><b>Achievements</b></p>
+                     <p> Achievements
+                     <li>I had the chance to collaborate with projects involving public administration (e.g.  Smart-City).
+                        The project was to realise a series of interconnected services for citizens and public administration that facilitate daily life (e.g. payment, integration, ticket-less park booking).
+                     </li>
+                     <li>I used my ability to work independently and under pressure developing autonomously a system of parking meters,
+                        remotely connected and based on single-board computer Raspberry PI2. I built an embedded system, including USB printer, Monitor, POS, cash acceptor and web services
+                     </li>
+                     <li>I consolidated my experience in Computer Architecture, Operating Systems, and Data Structures.</li>
+                     <p><b>Key skills</b></p>
+                     <li>Database administration and maintenance. Excellent knowledge of queries and stored procedures in SQL and Mysql language.</li>
+                     <li>Development of software, Web Forms, Windows Forms using Visual Studio and Xamarin for cross-platform applications. </li>
+                     <li>Working on Linux/Windows embedded systems in a wide variety of areas
+                        such as device driver development (e.g. Ethernet, USB, RS232/485), TCP/IP networking and wireless networking technologies (including 3G/4G Router, WISP Client Router, AP),
+                        USB protocols (printers, barcode reader), problem solving (including debugging of hardware and software issues).
+                     </li>
+                     <li>Development of software based on different massaging protocols (MSMQ, RabbitMQ).</li>
+                     <li>Development of software for automatic data exchange via FTP (batch script, Vbscript).</li>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-sm-3" collapse" id="morework" >
+                  <div  style="margin:30px; text-align:justify;vertical-align:middle">
+                     <p><b>Responsabilities</b></p>
+                     <p>Software Developer, (100% programming)
+                     <p><b>Achievements</b></p>
+                     <p> 
+                     <li>Implemented several websites.</li>
+                     <li>Implemented IT infrastructure, setting up local and remote servers. Created automated backup of database.</li>
+                     <li>Setup and administered Subversion SVN, GIT</li>
+                     <p><b>Key skills</b></p>
+                     <li>Web applications built with different programming languages C #, Visual Basic (.NET, Visual Basic 6.0, VBScript).</li>
+                     <li>MS SQL, MySQL, and Access.</li>
+                     </p>
+                  </div>
+               </div>
             </div>
-			<div class="col-sm-4 collapse" id="moreskills" >
-				<div  style="margin:30px; text-align:center;vertical-align:middle">
-					<p><h1><i><b>Management/Supervisory Skills</b></i></h1></p>
-					<p><br><li>Delegating tasks or responsibilities.</li>
-						<li>Ability to grasp new ideas and integrate them into desired results.</li>
-						<li>Committed to implementing quality improvement techniques. </li>
-						<li>Strong interpersonal skills and positive work ethic.</li>
-				</div>	
+         </div>
+         <!-- Skills -->
+         <div id="skills">
+            <div style="background:#ffe3b0;justify-content:center;vertical-align:middle; weight:100%" >
+               <div class="row" style="background:#ffe3b0;justify-content:center;vertical-align:middle; height:100px;" >
+                  <h1>Skills<a class="btn btn-circle btn-xl line" style="background-color:#ffc1c8; font-size:20px; margin:20px;" data-toggle="collapse" href="#moreskills" role="button" aria-expanded="false" aria-controls="moreskills">+ Skills Details</a></h1>
+               </div>
             </div>
-			<div class="col-sm-4 collapse" id="moreskills" >
-				<div  style="margin:30px; text-align:center;vertical-align:middle">
-					<p><h1><i><b>Computer Skills</b></i></h1></p>
-					<p><br><li>Excellent knowledge of the MS Office Suite (Excel, Word) of SharePoint, Powerpoint, Power BI.</li>
-						<li>Consistently Seeking and Learning New Technology.</li>
-						<li>Experience with Source Code and Version Repository. </li>
-						<li>Manage Multiple Projects in a Deadline-Driven Environment.</li>
-						<li>Excellent Knowledge of SQL Server, RDBMS MySQL, SQLyog.</li>
-						<li>Messaging: MSMQ, RabbitMQ.</li>
-						<li>•	Firewall Builder configuration on Raspberry PI/PI2.</li></p>
-				</div>	
+            <div class="row" style="background:#ffe3b0;display: flex; justify-content: center; align-items: center;">
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="65%">
+                     <div class="skillbar-title" style="background: #88cd2a;"><span>C#</span></div>
+                     <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                     <div class="skill-bar-percent">90%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="85%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>VB.Net</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">85%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="60%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>Visual basic</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">85%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="85%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>MVC</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">45%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="60%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>ASP</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">75%</div>
+                  </div>
+               </div>
             </div>
-		 </div>
-		 </div>
-		
-		<div id="projects1">
-				<h1>Work Projects</h1>
-				<p>Look through my work projects below</p>
-			
-			
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#1a" data-toggle="tab">Dell</a></li>
-					<li><a href="#2a" data-toggle="tab">Cityware</a></li>
-				</ul>
-
-				<div class="tab-content clearfix">
-					<div class="tab-pane active" id="1a">
-						<table class="table">
-							<thead>
-							  <tr>
-								<th>Type</th>
-								<th>Year</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<td>Sharepoint</td>
-								<td>2018</td>
-							  </tr>
-							  <tr>
-								<td>Community Site</td>
-								<td>2019</td>
-							  </tr>
-							  <tr>
-								<td>Woman in Action Inside Dell</td>
-								<td>2019</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-					
-					<div class="tab-pane" id="2a">
-						 <table class="table">
-							<thead>
-							  <tr>
-								<th>Type</th>
-								<th>Year</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<td>Parking meters</td>
-								<td>2015</td>
-							  </tr>
-							  <tr>
-								<td>SmartCity</td>
-								<td>2014</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-				</div>  
- 
-			</div>
-			
-		<!-- empty row -->
-			<div class="row" style="background:#f9f9f3;height:200px" >
-		
-		</div>
-		
-		
-		
-		<div id="education">
-		<div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
-		</div>
-		<div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
-			<h1 style="font-family:Comic Sans MS; font-size:44">Education</h1>
-		</div>	
-		<div class="row" style="background: rgba(142, 214, 255,1) font-size:4px" >
-			<div class="col-sm-4">
-				<div id="aboutMe" style="margin:30px; text-align:center">
-					<h3>2018</h3>
-					<h3>Institute Technology tallaght, Dublin</h3>
-					<li class="list-inline-item">
-	
-        <a href="https://www.it-tallaght.ie/" class="btn-floating btn-dribbble mx-1">
-          <i class="fa fa-university" aria-hidden="true"></i>
-        </a>
-      </li>
-					<h3>Bachelor’s Degree of Science in the Management of Innovation and Technology</h3>
-					<br>
-					<div>
-					<p><br>GPA 3.60</b>
-					<br><br>The course allowed me to consolidate my knowledge and experience
-					in Management, Data Analysis, Statistics and Innovation.</p>
-					</div>
-					<div>
-					<p><br><br><b>Main field of study:</b>
-					<br><br>Data Analytics
-					<br>Business Information System 
-					<br>Process Analysis and Management
-					<br>Innovation</p>					
-					</div>
-				<div class="collapse" id="collapsecity">
-					<div class="card card-body">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-					</div>
-				</div>
+            <div class="row" style="background:#ffe3b0;display: flex; justify-content: center; align-items: center;">
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="65%">
+                     <div class="skillbar-title" style="background: #88cd2a;"><span>HTML5</span></div>
+                     <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                     <div class="skill-bar-percent">75%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="85%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>CSS3</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">75%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="60%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>Javascript</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">60%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="85%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>JQuery</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">60%</div>
+                  </div>
+               </div>
+               <div class="col-sm-2">
+                  <div class="skillbar clearfix" data-percent="60%">
+                     <div class="skillbar-title" style="background: #00a8ff;"><span>XML</span></div>
+                     <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                     <div class="skill-bar-percent">60%</div>
+                  </div>
+               </div>
             </div>
-			</div>
-			<div class="col-sm-4">
-				<div id="aboutMe" style="margin:30px; text-align:center">
-					<h3>2016</h3>
-					<h3>MCPS: Microsoft Certified Professional</h3>
-					<br>
-					<div>
-					<p><br>
-					<br><br>MS: Programming in HTML5 with JavaScript and CSS3. Access and Secure Data, HTML5 WebSocket API; use of JQuery to make AJAX call</p>
-					</div>
-				</div>
-				
+         </div>
+         <div class="collapse" id="moreskills">
+            <div class="row"style="background:#ffe3b0" >
+               <div class="col-sm-4 collapse" id="moreskills" >
+                  <div  style="margin:30px; text-align:center;vertical-align:middle">
+                     <p>
+                     <h1><i><b>Personal Skills</b></i></h1>
+                     </p>
+                     <p><br>
+                     <li>A genuine desire to achieve, excel and evolve.</li>
+                     <li>Excellent written and verbal communication skills.</li>
+                     <li>Fast learner, ability to work independently. </li>
+                     <li>Strong problem-solving.</li>
+                     <li>Excellent analytical skills.</li>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-sm-4 collapse" id="moreskills" >
+                  <div  style="margin:30px; text-align:center;vertical-align:middle">
+                     <p>
+                     <h1><i><b>Management/Supervisory Skills</b></i></h1>
+                     </p>
+                     <p><br>
+                     <li>Delegating tasks or responsibilities.</li>
+                     <li>Ability to grasp new ideas and integrate them into desired results.</li>
+                     <li>Committed to implementing quality improvement techniques. </li>
+                     <li>Strong interpersonal skills and positive work ethic.</li>
+                  </div>
+               </div>
+               <div class="col-sm-4 collapse" id="moreskills" >
+                  <div  style="margin:30px; text-align:center;vertical-align:middle">
+                     <p>
+                     <h1><i><b>Computer Skills</b></i></h1>
+                     </p>
+                     <p><br>
+                     <li>Excellent knowledge of the MS Office Suite (Excel, Word) of SharePoint, Powerpoint, Power BI.</li>
+                     <li>Consistently Seeking and Learning New Technology.</li>
+                     <li>Experience with Source Code and Version Repository. </li>
+                     <li>Manage Multiple Projects in a Deadline-Driven Environment.</li>
+                     <li>Excellent Knowledge of SQL Server, RDBMS MySQL, SQLyog.</li>
+                     <li>Messaging: MSMQ, RabbitMQ.</li>
+                     <li>•	Firewall Builder configuration on Raspberry PI/PI2.</li>
+                     </p>
+                  </div>
+               </div>
             </div>
-			<div class="col-sm-4">
-				<div id="aboutMe" style="margin:30px; text-align:center">
-					<h3>2009</h3>
-					<h3>University of Padua, Italy </h3>
-					<li class="list-inline-item">
-	
-        <a href="https://www.unipd.it/" class="btn-floating btn-dribbble mx-1">
-          <i class="fa fa-university" aria-hidden="true"></i>
-        </a>
-      </li>
-					<h3>ECTS 80</h3>
-					<br>
-					<p><br><br><b>Subjects of study:</b>
-					<br>Mathematical analysis (25 ECTS) 
-					<br>Discrete maths (19 ECTS) 
-					<br>Object-oriented programming (10 ECTS) 
-					<br>Computational Math (MatLab, Mathematica) (4 ECTS) 
-					<br>Mathematical physics (8 ECTS) 
-					<br> Physics (14 ECTS) 
-					</p>					
-				</div>
+         </div>
+         <div id="projects1">
+            <h1>Work Projects</h1>
+            <p>Look through my work projects below</p>
+            <ul class="nav nav-pills">
+               <li class="active"><a href="#1a" data-toggle="tab">Dell</a></li>
+               <li><a href="#2a" data-toggle="tab">Cityware</a></li>
+            </ul>
+            <div class="tab-content clearfix">
+               <div class="tab-pane active" id="1a">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th>Type</th>
+                           <th>Year</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Sharepoint WebSite</td>
+                           <td>2018</td>
+                        </tr>
+                        <tr>
+                           <td>Community WebSite</td>
+                           <td>2019</td>
+                        </tr>
+                        <tr>
+                           <td>Woman in Action Inside Dell, Website</td>
+                           <td>2019</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="tab-pane" id="2a">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th>Type</th>
+                           <th>Year</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Parking meters</td>
+                           <td>2015</td>
+                        </tr>
+                        <tr>
+                           <td>SmartCity</td>
+                           <td>2014</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
             </div>
-			
-		</div>
-		</div>
-		<div id="projects2">
-		<div class="row" style="background:#ffe3b0 ; height:100px; display: flex; justify-content: center; align-items: center;" >
-			<h1 style="font-family:Comic Sans MS; font-size:44; ">Projects</h1>
-		</div>
-		
-				<h1>Projects & Exams</h1>
-				<p>Look through my college projects and results below</p>
-			
-			
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#1b" data-toggle="tab">Fourth Year in IT Management</a></li>
-					<li><a href="#2b" data-toggle="tab">Third Year in Management of Innovation and Technology</a></li>
-				</ul>
-
-				<div class="tab-content clearfix">
-					<div class="tab-pane active" id="1b">
-						<table class="table">
-							<thead>
-							  <tr>
-								<th>Subject 2019</th>
-								<th>Grade</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<td>IMD CA1</td>
-								<td>B</td>
-							  </tr>
-							  <tr>
-								<td>Operation Research CA1</td>
-								<td>A</td>
-							  </tr>
-							  <tr>
-								<td>EPA CA1</td>
-								<td>A</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-					
-					<div class="tab-pane" id="2b">
-						 <table class="table">
-							<thead>
-							  <tr>
-								<th>Subject 2017</th>
-								<th>Grade</th>
-							  </tr>
-							</thead>
-							<tbody>
-							  <tr>
-								<td>Information Technology</td>
-								<td>B+</td>
-							  </tr>
-							  <tr>
-								<td>Innovation</td>
-								<td>B</td>
-							  </tr>
-							  <tr>
-								<td>Management Accounting 1</td>
-								<td>A</td>
-							  </tr>
-							  <tr>
-								<td>Manufacturing and Service Systems</td>
-								<td>B-</td>
-							  </tr>
-							   <tr>
-								<td>Organisation Theory</td>
-								<td>A</td>
-							  </tr>
-							   <tr>
-								<td>Project Management</td>
-								<td>B</td>
-							  </tr>
-							   <tr>
-								<td>Business Information Systems</td>
-								<td>B+</td>
-							  </tr>
-							  <tr>
-								<td>Management Accounting 2</td>
-								<td>A</td>
-							  </tr>
-							  <tr>
-								<td>Logistics</td>
-								<td>A</td>
-							  </tr>
-							  <tr>
-								<td>Process Analysis and Management</td>
-								<td>B+</td>
-							  </tr>
-							  <tr>
-								<td>Quality Management</td>
-								<td>A</td>
-							  </tr>
-							  <tr>
-								<td>Statistics</td>
-								<td>A</td>
-							  </tr>
-							</tbody>
-						  </table>
-					</div>
-				</div>  
- 
-			</div>
-		<!-- empty row -->
-		
-		<!-- Interests -->
-		
-		<div id="interests">
-		<div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
-		</div>
-		<div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
-			<h1 style="font-family:Comic Sans MS; font-size:44">Interests</h1>
-		</div>	
-		<div class="row" style="background:#ffe3b0 ; height:130px" >
-			<div class="col-sm-12">
-				<div id="skills" style="margin:30px; text-align:center">
-					<h3></h3>
-					<h3>Veganism, Zero-waste, Climbing, Running</h3>
-					<br>				
-				</div>
+         </div>
+         <!-- empty row -->
+         <div class="row" style="background:#f9f9f3;height:200px" >
+         </div>
+         <div id="education">
+            <div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
             </div>
-		</div>
-		</div>
-		<!-- empty row -->
-		<div class="row" style="background:#ffffff ; height:30px" >
-			
-		</div>
-					
-	
-	<div class="footer navbar-fixed-bottom" style="background:#ffe3b0 ; height:50px" >	
-	
-
-  <div class="container">
-    <ul class="list-unstyled list-inline text-center" >
-	<hr>
-	<li class="list-inline-item">
-	
-        <a href="https://www.it-tallaght.ie/" class="btn-floating btn-dribbble mx-1">
-          <i class="fa fa-university" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://www.facebook.com/profile.php?id=1487014844&ref=bookmarks" class="btn-floating btn-fb mx-1">
-          <i class="fa fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://twitter.com/ermesa1" class="btn-floating btn-tw mx-1">
-          <i class="fa fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://www.linkedin.com/in/ermesa-pepe-477504118/" class="btn-floating btn-li mx-1">
-          <i class="fa fa-linkedin fa-1x"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="https://www.instagram.com/buyinbulk_ireland/?hl=it" class="btn-floating btn-dribbble mx-1">
-          <i class="fa fa-instagram fa-1x"></i>
-        </a>
-      </li>
-    </ul>
-   
-  </div>
- 
-	 </div>	
-		
-		</body>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+            <div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
+               <h1 style="font-family:Comic Sans MS; font-size:44">Education</h1>
+            </div>
+            <div class="row" style="background: rgba(142, 214, 255,1) font-size:4px" >
+               <div class="col-sm-4">
+                  <div id="aboutMe" style="margin:30px; text-align:center">
+                     <h3>2018</h3>
+                     <h3>Institute Technology tallaght, Dublin</h3>
+                     <li class="list-inline-item">
+                        <a href="https://www.it-tallaght.ie/" class="btn-floating btn-dribbble mx-1">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                        </a>
+                     </li>
+                     <h3>Bachelor’s Degree of Science in the Management of Innovation and Technology</h3>
+                     <br>
+                     <div>
+                        <p><br><i>GPA 3.60</i></b>
+                           <br><br>The course allowed me to consolidate my knowledge and experience
+                           in Management, Data Analysis, Statistics and Innovation.
+                        </p>
+                     </div>
+                     <div>
+                        <p><br><br><b>Main field of study:</b>
+                           <br>
+                        <li>Data Analytics</li>
+                        <br>
+                        <li>Business Information System </li>
+                        <br>
+                        <li>Process Analysis and Management</li>
+                        <br>
+                        <li>Innovation</li>
+                        </p>					
+                     </div>
+                     <div class="collapse" id="collapsecity">
+                        <div class="card card-body">
+                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div id="aboutMe" style="margin:30px; text-align:center">
+                     <h3>2016</h3>
+                     <h3>MCPS: Microsoft Certified Professional</h3>
+                     <br>
+                     <div>
+                        <p><br>
+                           <br><br>MS: Programming in HTML5 with JavaScript and CSS3. Access and Secure Data, HTML5 WebSocket API; use of JQuery to make AJAX call
+                        </p>
+                        <br><br><br>
+                        <button type="submit" onclick="window.open('MS.pdf')" style="width:30%;background:rgba(142, 214, 255,1)">
+                           <i class="fas fa-download" aria-hidden="true" ></i>
+                           <h4>View Certification</h4>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div id="aboutMe" style="margin:30px; text-align:center">
+                     <h3>2009</h3>
+                     <h3>University of Padua, Italy </h3>
+                     <li class="list-inline-item">
+                        <a href="https://www.unipd.it/" class="btn-floating btn-dribbble mx-1">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                        </a>
+                     </li>
+                     <br>
+                     <h3>ECTS 80</h3>
+                     <br>
+                     <p><br><br><b>Subjects of study:</b>
+                        <br>
+                     <li>Mathematical analysis (25 ECTS) </li>
+                     <br>
+                     <li>Discrete maths (19 ECTS) </li>
+                     <br>
+                     <li>Object-oriented programming (10 ECTS) </li>
+                     <br>
+                     <li>Computational Math (MatLab, Mathematica) (4 ECTS) </li>
+                     <br>
+                     <li>Mathematical physics (8 ECTS) </li>
+                     <br>
+                     <li> Physics (14 ECTS) </li>
+                     </p>					
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="projects2">
+            <div class="row" style="background:#ffe3b0 ; height:100px; display: flex; justify-content: center; align-items: center;" >
+               <h1 style="font-family:Comic Sans MS; font-size:44; ">Projects</h1>
+            </div>
+            <h1>Projects & Exams</h1>
+            <p>My college projects and results:</p>
+            <ul class="nav nav-pills">
+               <li class="active"><a href="#1b" data-toggle="tab">Fourth Year in IT Management</a></li>
+               <li><a href="#2b" data-toggle="tab">Third Year in Management of Innovation and Technology</a></li>
+            </ul>
+            <div class="tab-content clearfix">
+               <div class="tab-pane active" id="1b">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th>Subject 2019</th>
+                           <th>Grade</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>IMD CA1</td>
+                           <td>B</td>
+                        </tr>
+                        <tr>
+                           <td>Operation Research CA1</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>EPA CA1</td>
+                           <td>A</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="tab-pane" id="2b">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th>Subject 2017</th>
+                           <th>Grade</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Information Technology</td>
+                           <td>B+</td>
+                        </tr>
+                        <tr>
+                           <td>Innovation</td>
+                           <td>B</td>
+                        </tr>
+                        <tr>
+                           <td>Management Accounting 1</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>Organisation Theory</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>Project Management</td>
+                           <td>B</td>
+                        </tr>
+                        <tr>
+                           <td>Business Information Systems</td>
+                           <td>B+</td>
+                        </tr>
+                        <tr>
+                           <td>Management Accounting 2</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>Logistics</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>Process Analysis and Management</td>
+                           <td>B+</td>
+                        </tr>
+                        <tr>
+                           <td>Quality Management</td>
+                           <td>A</td>
+                        </tr>
+                        <tr>
+                           <td>Statistics</td>
+                           <td>A</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <!-- empty row -->
+         <!-- Interests -->
+         <div id="interests">
+            <div class="row" style="background:#f9f9f3 ; height:100px;justify-content:center;vertical-align:middle" >
+            </div>
+            <div class="row" style="background:#ffffff ; height:100px;display: flex; justify-content: center; align-items: center;">
+               <h1 style="font-family:Comic Sans MS; font-size:44">Interests</h1>
+            </div>
+            <div class="row" style="background:#ffffff; display: flex; justify-content: center; align-items: center;">
+               <div class="col-sm-4" style="display: flex; text-align: center;justify-content: center; align-items: center;">
+                  <div class="thumbnail">
+                     <h2>Veganism</h2>
+                     <a href="https://www.facebook.com/thebuddhistchef/">
+                        <img src="veganism.jpeg" alt="Lights" style="width:100%">  
+                        <div class="caption">
+                           <p>Veganism, look at my favoutite vegan recipes</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-sm-4" style="display: flex; text-align: center;justify-content: center; align-items: center;">
+                  <div class="thumbnail">
+                     <h2>ZErowaste</h2>
+                     <a href="https://www.facebook.com/loopbulk">
+                        <img src="zerowaste.jpg" alt="Lights" style="width:100%">    
+                        <div class="caption">
+                           <p>Zero-waste, look at my facebook Zero-Waste Page</p>
+                        </div>
+                     </a>
+                  </div>
+                  </a>
+               </div>
+               <div class="col-sm-4" style="display: flex; text-align: center;justify-content: center; align-items: center;">
+                  <div class="thumbnail">
+                     <h2>Climbing</h2>
+                     <a href="https://www.dublinclimbingcentre.ie/">
+                        <img src="climbing.jpeg" alt="Lights" style="width:100%"> 
+                        <div class="caption">
+                           <p>Climbing, my favourite place to climb in Dublin</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br>
+      </div>					
+      </div>
+      </div>
+      </div>
+      </div>
+      <!-- empty row -->
+      <div class="row" style="background:#ffffff ; height:30px" >
+      </div>
+      <div class="footer navbar-fixed-bottom" style="background:#ffe3b0 ; height:50px" >
+         <div class="container">
+            <ul class="list-unstyled list-inline text-center" >
+               <hr>
+               <li class="list-inline-item">
+                  <a href="https://www.it-tallaght.ie/" class="btn-floating btn-dribbble mx-1">
+                  <i class="fa fa-university" aria-hidden="true"></i>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.facebook.com/profile.php?id=1487014844&ref=bookmarks" class="btn-floating btn-fb mx-1">
+                  <i class="fa fa-facebook-f"> </i>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://twitter.com/ermesa1" class="btn-floating btn-tw mx-1">
+                  <i class="fa fa-twitter"> </i>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/ermesa-pepe-477504118/" class="btn-floating btn-li mx-1">
+                  <i class="fa fa-linkedin fa-1x"></i>
+                  </a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="https://www.instagram.com/buyinbulk_ireland/?hl=it" class="btn-floating btn-dribbble mx-1">
+                  <i class="fa fa-instagram fa-1x"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </body>
